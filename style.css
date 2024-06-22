@@ -1,0 +1,165 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f0f0;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mobilelegend {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Courier', monospace;
+    color: #071952;
+    padding-left: 20px;
+}
+
+.menu {
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.tbl-merah {
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.tbl-biru {
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.wrapper {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', sans-serif;
+    color: #071952;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.tengah {
+    text-align: center;
+}
+
+.tutors-list, .partner-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor, .kartu-parner {
+    width: 200px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.kartu-tutor img, .kartu-parner img {
+    width: 100%;
+    height: auto;
+}
+
+.kartu-tutor p, .kartu-parner p {
+    padding: 10px;
+    background-color: #071952;
+    color: white;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #071952;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 20px;
+}
+
+#copyright {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#copyright .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
